@@ -525,8 +525,13 @@
         }
 
         // --- GEMINI API INTEGRATION ---
+
+        const encryptedKey = "QUl6YVN5QVMzTjh1dkNUWXVYT2xUT3RQdm8tX3J4NXFocGlhUGZB"; 
+
+        // Eta code run howar shomoy ashol key te convert hobe
+        const apiKey = atob(encryptedKey);
         
-        const apiKey = ""; // Runtime environment provides this
+        // Runtime environment provides this
 
         async function callGemini(prompt) {
             try {
